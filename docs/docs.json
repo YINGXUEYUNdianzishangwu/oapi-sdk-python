@@ -1,0 +1,48 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Feishu OpenPlatform Python SDK",
+  "colors": {
+    "primary": "#3370FF",
+    "light": "#3370FF",
+    "dark": "#4E83FD"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get started",
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "group": "Channel module",
+        "pages": [
+          "channel",
+          "channel/quickstart",
+          "channel/reference",
+          "channel/webhook-server",
+          {
+            "group": "Advanced",
+            "pages": [
+              "channel/markdown",
+              "channel/cardkit-streaming",
+              "channel/dedup-architecture"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/yingxueyundianzishangwu/oapi-sdk-python"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/yingxueyundianzishangwu/oapi-sdk-python"
+    }
+  }
+}
